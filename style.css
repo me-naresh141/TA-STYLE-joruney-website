@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* general style */
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 32px; */
+}
+a {
+  text-decoration: none;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-darection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgb(107, 198, 186);
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+/* custom style */
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0;
+}
+.header-strong {
+  text-transform: uppercase;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+.header-ul li {
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+.home-li {
+  color: rgb(108, 199, 187);
+}
+
+/* hero-section */
+.hero-section {
+  background: linear-gradient(to right, rgb(6, 3, 1, 0.7), rgb(6, 3, 1, 0.5)),
+    url("./assets/media/banner.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.h1-div {
+  color: white;
+  text-align: center;
+  padding-top: 115px;
+}
+.heading {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+}
+.point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+.middle-point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.text {
+  font-size: 20px;
+  color: gray;
+}
+.fa-circle-chevron-down {
+  font-size: 30px;
+  color: rgb(107, 198, 186);
+  background-color: white;
+  border-radius: 50%;
+}
+
+.chose-div {
+  width: 60%;
+  position: relative;
+  left: 230px;
+  top: 150px;
+  padding: 30px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+.check-div {
+  margin: 25px;
+}
+.small {
+  font-size: 20px;
+  font-weight: 500;
+}
+.input {
+  width: 100px;
+  margin-left: 20px;
+  border: none;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+.text-input {
+  text-align: center;
+  border: none;
+  width: 200px;
+  background-color: rgb(245, 245, 245);
+}
+.btn-primary {
+  padding: 10px 100px;
+}
+/* journey-section */
+.joureny-section {
+  background-color: rgb(239, 239, 239);
+}
+.joureny-div {
+  text-align: center;
+  padding: 30px 0;
+}
+.heading-2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.btn-secondry {
+  margin-top: 20px;
+  padding: 15px 10px;
+  font-size: 20px;
+}
+/* place-section */
+.famous-places-section {
+  /* background-color: rgb(255,255,255); */
+}
+.article-div {
+  width: 100%;
+  background-color: rgb(107, 198, 186);
+  /* padding: 10px 10px; */
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  right: 150px;
+}
+.figure {
+  width: 100%;
+  font-size: 0;
+}
+.famous-div {
+  background-color: white;
+}
+.article-pera {
+  color: white;
+}
+.famous-small {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+.left-right-icon {
+  font-size: 30px;
+  padding: 0 10px;
+  background-color: rgb(131, 126, 119);
+  color: white;
+  margin-left: 1px;
+  position: relative;
+  right: 150px;
+}
+.btn-thired {
+  background-color: white;
+  color: rgb(107,198,186);
+  padding: 10px;
+  border: none;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.btn-four{
+  color:rgb(198, 105, 149);
+}
+.article-div-2 {
+  width: 100%;
+  background-color: rgb(198, 105, 149);
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+.left-right-icon-2 {
+  font-size: 30px;
+  padding: 0 10px;
+  background-color: rgb(131, 126, 119);
+  color: white;
+  margin-left: 1px;
+  position: relative;
+  right: 560px;
+}
+.img-2 {
+  padding-right: 30px;
+}
+
+/* map-section */
+.map-section {
+  background-color: rgb(107, 198, 186);
+}
+.map-div {
+  width: 10%;
+  text-align: center;
+}
+.asia {
+  background-color: rgb(198, 105, 149);
+}
+.map-name {
+  color: white;
+  font-weight: 500;
+}
+
+/* places-section */
+.places-section {
+  background-color: white;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.place-img-div {
+  width: 1000px;
+  text-align: center;
+  margin: 7px 0;
+  border: 1px solid rgb(250, 248, 248);
+}
+.places-div {
+  width: 800px;
+}
+.places-article-div {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+.btn-img-div {
+  padding-right: 130px;
+  background-color: rgb(107, 198, 186);
+}
+.place-small {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+}
+.places-small {
+  color: red;
+}
+.btn-four-div {
+  text-align: center;
+}
+/* google-map section */
+
+.form-div {
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  top: 3550px;
+  left: 900px;
+}
+.form-input {
+  width: 48%;
+  padding: 10px 1px;
+  margin: 20px 0;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 5px;
+}
+.sub-input {
+  width: 98%;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 5px;
+}
+textarea {
+  margin-top: 20px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 5px;
+}
+.submit-input {
+  padding: 10px 140px;
+  font-size: 20px;
+  background-color: rgb(107, 198, 186);
+  color: white;
+  border: none;
+}
+
+/* footer */
+.footer-section {
+  background-color: rgb(107, 198, 186);
+}
+.footer-div {
+  text-align: center;
+  padding: 30px 0;
+}
+.footer-small {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+}
