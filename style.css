@@ -169,7 +169,7 @@ a {
 /* custom style */
 .header {
   background-color: rgb(255, 255, 255);
-  padding: 20px 0;
+  padding: 20px 300px;
 }
 .header-strong {
   text-transform: uppercase;
@@ -277,9 +277,6 @@ a {
   font-size: 20px;
 }
 /* place-section */
-.famous-places-section {
-  /* background-color: rgb(255,255,255); */
-}
 .article-div {
   width: 100%;
   background-color: rgb(107, 198, 186);
@@ -308,7 +305,7 @@ a {
 .left-right-icon {
   font-size: 30px;
   padding: 0 10px;
-  background-color: rgb(131, 126, 119);
+   background-color: rgb(131, 126, 119); 
   color: white;
   margin-left: 1px;
   position: relative;
@@ -350,10 +347,14 @@ a {
 /* map-section */
 .map-section {
   background-color: rgb(107, 198, 186);
+  padding: 10px 0;
 }
 .map-div {
   width: 10%;
   text-align: center;
+}
+.map-div:hover{
+  background-color:rgb(198, 105, 149) ;
 }
 .asia {
   background-color: rgb(198, 105, 149);
@@ -379,7 +380,7 @@ a {
   border: 1px solid rgb(250, 248, 248);
 }
 .places-div {
-  width: 800px;
+  width: 100%;
 }
 .places-article-div {
   display: flex;
@@ -388,7 +389,9 @@ a {
 }
 .btn-img-div {
   padding-right: 130px;
+  
   background-color: rgb(107, 198, 186);
+  
 }
 .place-small {
   text-transform: capitalize;
@@ -452,3 +455,22 @@ textarea {
   color: white;
   text-transform: capitalize;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
